@@ -133,7 +133,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
    - Follows **Unidirectional** data flow or data binding.
    - Uses **reusable/composable** UI components to develop the view.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 2. ### What is JSX?
 
@@ -153,7 +153,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
    }
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 3. ### What is the difference between Element and Component?
 
