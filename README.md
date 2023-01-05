@@ -200,7 +200,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
      React.createElement("div", { id: "login-btn", onClick: onLogin }, "Login");
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 4. ### How to create components in React?
 
@@ -224,7 +224,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
       }
       ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 5. ### When to use a Class Component over a Function Component?
 
@@ -232,13 +232,13 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
    _However, from React 16.8 with the addition of Hooks, you could use state , lifecycle methods and other features that were only available in class component right in your function component._
    _So, it is always recommended to use Function components, unless you need a React functionality whose Function component equivalent is not present yet, like Error Boundaries _
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 6. ### What are Pure Components?
 
    _`React.PureComponent`_ is exactly the same as _`React.Component`_ except that it handles the `shouldComponentUpdate()` method for you. When props or state changes, _PureComponent_ will do a shallow comparison on both props and state. _Component_ on the other hand won't compare current props and state to next out of the box. Thus, the component will re-render by default whenever `shouldComponentUpdate` is called.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 7. ### What is state in React?
 
@@ -270,7 +270,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
    State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 8. ### What are props in React?
 
@@ -348,13 +348,13 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
    };
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 9. ### What is the difference between state and props?
 
    Both _props_ and _state_ are plain JavaScript objects. While both of them hold information that influences the output of render, they are different in their functionality with respect to component. Props get passed to the component similar to function parameters whereas state is managed within the component similar to variables declared within a function.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 10. ### Why should we not update the state directly?
 
@@ -374,7 +374,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
     **Note:** You can directly assign to the state object either in _constructor_ or using latest javascript's class field declaration syntax.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 11. ### What is the purpose of callback function as an argument of `setState()`?
 
