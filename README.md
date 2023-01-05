@@ -4,4 +4,4 @@
 
 ---
 
-**Note:** Ushbu repository ReactJS uchun xosdir. Iltimos, asosiy javascript savollari uchun [JavaScript Interview questions](https://github.com/sulaymonov2002/javascript-interview-questions) tekshiring.
+**Eslatma:** Ushbu repository ReactJS uchun xosdir. Iltimos, asosiy javascript savollari uchun [JavaScript Interview questions](https://github.com/sulaymonov2002/javascript-interview-questions) tekshiring.
