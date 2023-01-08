@@ -26,10 +26,10 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 | 9   | [React-dagi props nima ?](#what-are-props-in-react)                                                                                                                                        |
 | 10  | [State va props o'rtasidagi farq nima?](#what-is-the-difference-between-state-and-props)                                                                                                   |
 | 11  | [Nega biz state(ni) to'g'ridan-to'g'ri yangilamasligimiz kerak ?](#why-should-we-not-update-the-state-directly)                                                                            |
-| 12  | [setState() argumenti sifatida callback qilish funksiyasining maqsadi nima ?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)                                             |
-| 13  | [What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling)                                                             |
-| 14  | [How to bind methods or event handlers in JSX callbacks?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks)                                                                         |
-| 15  | [How to pass a parameter to an event handler or callback?](#how-to-pass-a-parameter-to-an-event-handler-or-callback)                                                                       |
+| 12  | [setState() argumenti sifatida callback qilish funksiyasining maqsadi nima ?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)                                        |
+| 13  | [HTML va React hodisalarini boshqarish o'rtasidagi farq nima ?](#what-is-the-difference-between-html-and-react-event-handling)                                                             |
+| 14  | [JSX callback(larida) usullar yoki hodisalarni qayta ishlash vositalarini qanday ulash mumkin ?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks)                                  |
+| 15  | [Parametrni event handler yoki callback(ga) qanday o'tkazish mumkin ?](#how-to-pass-a-parameter-to-an-event-handler-or-callback)                                                           |
 | 16  | [What are synthetic events in React?](#what-are-synthetic-events-in-react)                                                                                                                 |
 | 17  | [What are inline conditional expressions?](#what-are-inline-conditional-expressions)                                                                                                       |
 | 18  | [What is "key" prop and what is the benefit of using it in arrays of elements?](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements)                               |
