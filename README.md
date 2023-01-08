@@ -25,8 +25,8 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 | 8   | [React-dagi state nima ?](#what-is-state-in-react)                                                                                                                                         |
 | 9   | [React-dagi props nima ?](#what-are-props-in-react)                                                                                                                                        |
 | 10  | [State va props o'rtasidagi farq nima?](#what-is-the-difference-between-state-and-props)                                                                                                   |
-| 11  | [Why should we not update the state directly?](#why-should-we-not-update-the-state-directly)                                                                                               |
-| 12  | [What is the purpose of callback function as an argument of setState()?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)                                             |
+| 11  | [Nega biz state(ni) to'g'ridan-to'g'ri yangilamasligimiz kerak ?](#why-should-we-not-update-the-state-directly)                                                                            |
+| 12  | [setState() argumenti sifatida callback qilish funksiyasining maqsadi nima ?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)                                             |
 | 13  | [What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling)                                                             |
 | 14  | [How to bind methods or event handlers in JSX callbacks?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks)                                                                         |
 | 15  | [How to pass a parameter to an event handler or callback?](#how-to-pass-a-parameter-to-an-event-handler-or-callback)                                                                       |
