@@ -30,11 +30,11 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 | 13  | [HTML va React hodisalarini boshqarish o'rtasidagi farq nima ?](#what-is-the-difference-between-html-and-react-event-handling)                                                             |
 | 14  | [JSX callback(larida) usullar yoki hodisalarni qayta ishlash vositalarini qanday ulash mumkin ?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks)                                  |
 | 15  | [Parametrni event handler yoki callback(ga) qanday o'tkazish mumkin ?](#how-to-pass-a-parameter-to-an-event-handler-or-callback)                                                           |
-| 16  | [What are synthetic events in React?](#what-are-synthetic-events-in-react)                                                                                                                 |
-| 17  | [What are inline conditional expressions?](#what-are-inline-conditional-expressions)                                                                                                       |
-| 18  | [What is "key" prop and what is the benefit of using it in arrays of elements?](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements)                               |
-| 19  | [What is the use of refs?](#what-is-the-use-of-refs)                                                                                                                                       |
-| 20  | [How to create refs?](#how-to-create-refs)                                                                                                                                                 |
+| 16  | [React(dagi) sintetik hodisalar nima ?](#what-are-synthetic-events-in-react)                                                                                                                 |
+| 17  | [Inline conditional expressions nima ?](#what-are-inline-conditional-expressions)                                                                                                       |
+| 18  | ["Key" prop nima va uni elementlar massivlarida ishlatishning foydasi nimada ?](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements)                               |
+| 19  | [Ref(lardan) qanday foydalanish kerak ?](#what-is-the-use-of-refs)                                                                                                                                       |
+| 20  | [Ref(larni) qanday yaratish mumkin ?](#how-to-create-refs)                                                                                                                                                 |
 | 21  | [What are forward refs?](#what-are-forward-refs)                                                                                                                                           |
 | 22  | [Which is preferred option with in callback refs and findDOMNode()?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode)                                                     |
 | 23  | [Why are String Refs legacy?](#why-are-string-refs-legacy)                                                                                                                                 |
@@ -120,20 +120,21 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 1. ### What is React?
 
-   React is an **open-source front-end JavaScript library** that is used for building user interfaces, especially for single-page applications. It is used for handling view layer for web and mobile apps. React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
+   React - bu foydalanuvchi interfeyslarini yaratish uchun, ayniqsa, bir sahifali ilovalar uchun ishlatiladigan **open-source front-end JavaScript library**. U web va mobil ilovalar uchun ko'rinish qatlamini boshqarish uchun ishlatiladi. Reactni Facebook'da ishlaydigan dasturiy ta'minot muhandisi [Jordan Walke](https://github.com/jordwalke) yaratgan. React birinchi marta Facebook-ning News Feed-da 2011-yilda va  Instagramda-da 2012-yilda joylashtirilgan.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 2. ### What are the major features of React?
 
-   The major features of React are:
+   Reactning asosiy xususiyatlari:
 
-   - It uses **VirtualDOM** instead of RealDOM considering that RealDOM manipulations are expensive.
-   - Supports **server-side rendering**.
-   - Follows **Unidirectional** data flow or data binding.
-   - Uses **reusable/composable** UI components to develop the view.
+   - **JSX** sintaksisidan foydalaniladi, JS sintaksisi kengaytmasi ishlab chiquvchilarga HTML code(ni) JS code(da) yozish imkonini beradi.
+   - RealDom manipulyatsiyalari qimmat ekanligini hisobga olib, RealDOM o'rniga **VirtualDOM** - dan foydalaniladi.
+   - **server-side rendering**(ni) qo'llab-quvatlaydi.
+   - **Bir yo'nalishlo** ma'lumotlar oqimini yoki ma'lumotlarni bog'lashni kuzatib boradi.
+   - Ko'rinishni ishlab chiqish uchun qayta **reusable/composable** qilinadigan UI componentlaridan foydalanadi.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 3. ### What is JSX?
 
