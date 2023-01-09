@@ -158,15 +158,15 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 4. ### What is the difference between Element and Component?
 
-   An _Element_ is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. _Elements_ can contain other _Elements_ in their props. Creating a React element is cheap. Once an element is created, it is never mutated.
+   _Elemnet_ - bu DOM tugunlari yoki boshqa komponentlar nuqtai nazaridan ekranda paydo bo'ladigan narsalarni tavsiflovchi oddiy obyekt. _Element_(lar) o'z rekvizitlarida boshqa _element_(larni) o'z ichiga olishi mumkin. React element(ni) yaratish arzon. Element yaratilgan so'ng, u hech qachon mutatsiyaga uchramaydi. 
 
-   The object representation of React Element would be as follows:
+   React Element obyektining ko'rinishi quydagicha bo'ladi:
 
    ```javascript
    const element = React.createElement("div", { id: "login-btn" }, "Login");
    ```
 
-   The above `React.createElement()` function returns an object:
+   Yuqoridagi `React.createElement()` funksiyasi obyektni qaytaradi:
 
    ```
    {
@@ -178,13 +178,13 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
    }
    ```
 
-   And finally it renders to the DOM using `ReactDOM.render()`:
+   Va nihoyat, `ReactDOM.render()` yordamida DOMga qayta ishlaydi:
 
    ```html
    <div id="login-btn">Login</div>
    ```
 
-   Whereas a **component** can be declared in several different ways. It can be a class with a `render()` method or it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output:
+   Holbuki, **component** bir necha xil usullarda e'lon qilinishi mumkin. Bu `render()` usuli bo'lgan sinf bo'lishi mumkin yoki u funksiya sifatida belgilanishi mumkin. Har qanday holatda ham u kirish sifatida rekvizitlarni oladi va chiqish sifatida JSX daraxtini qaytaradi:
 
    ```javascript
    const Button = ({ onLogin }) => (
@@ -194,14 +194,14 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
    );
    ```
 
-   Then JSX gets transpiled to a `React.createElement()` function tree:
+   Keyin JSX `React.createElement()` funksiya daraxtiga o'tkaziladi:
 
    ```javascript
    const Button = ({ onLogin }) =>
      React.createElement("div", { id: "login-btn", onClick: onLogin }, "Login");
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 5. ### How to create components in React?
 
