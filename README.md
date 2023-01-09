@@ -138,9 +138,9 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 3. ### What is JSX?
 
-   _JSX_ is a XML-like syntax extension to ECMAScript (the acronym stands for _JavaScript XML_). Basically it just provides syntactic sugar for the `React.createElement()` function, giving us expressiveness of JavaScript along with HTML like template syntax.
+   _JSX_ - bu ECMAScript-ning XML-ga o'xshash sintaksisi kengaytmasi (qisqartma JavaScript XML degan ma'noni anglatadi). Asosan u `React.createElement()` funksiyasi uchun sintaktik shakarni taqdim etadi, bu bizga JavaScript-ning ifodaliligini va HTML kabi shablon sintaksisini beradi.
 
-   In the example below text inside `<h1>` tag is returned as JavaScript function to the render function.
+   Quyidagi misolda `<h1>` tag ichidagi matn render funksiyasiga JavaScript funksiyasi sifatida qaytariladi.
 
    ```jsx harmony
    class App extends React.Component {
@@ -154,7 +154,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
    }
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 4. ### What is the difference between Element and Component?
 
