@@ -205,9 +205,9 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 5. ### How to create components in React?
 
-   There are two possible ways to create a component.
+   Komponentni yaratishning ikkita mumkin bo'lgan usuli mavjud.
 
-   1. **Function Components:** This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as the first parameter and return React elements:
+   1. **Function Components:** Bu komponent yaratishning eng oddiy usuli. Bular props obyektini birinchi parametr sifatida qabul qiladigan va React elementlarini qaytaradigan sof JavaScript funksiyalari:
 
       ```jsx harmony
       function Greeting({ message }) {
@@ -215,7 +215,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
       }
       ```
 
-   2. **Class Components:** You can also use ES6 class to define a component. The above function component can be written as:
+   2. **Class Components:** Komponentni aniqlash uchun ES6 sinfidan ham foydalanishingiz mumkin. Yuqoridagi funksiya komponenti quyidagicha yozilishi mumkin:
 
       ```jsx harmony
       class Greeting extends React.Component {
@@ -225,7 +225,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
       }
       ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 6. ### When to use a Class Component over a Function Component?
 
