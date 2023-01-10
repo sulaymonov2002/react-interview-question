@@ -229,11 +229,11 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 6. ### When to use a Class Component over a Function Component?
 
-   If the component needs _state or lifecycle methods_ then use class component otherwise use function component.
-   _However, from React 16.8 with the addition of Hooks, you could use state , lifecycle methods and other features that were only available in class component right in your function component._
-   _So, it is always recommended to use Function components, unless you need a React functionality whose Function component equivalent is not present yet, like Error Boundaries _
+   Agar komponentga _state yoki lifecycle_ kerak bo'lsa, class komponentidan foydalaning, aks holda function komponentidan foydalaning.
+   _Biroq, React 16.8 dan Hooks qo'shilgan holda siz faqat o'z function komponentingizda class komponentida mavjud bo'lgan state, lifecycle methods va boshqa xususiyatlardan foydalanishingiz mumkin._
+   _Shunday ekan, har doim Function komponentlaridan foydalanish tavsiya etiladi, agar sizga Xato chegaralari kabi Function komponenti ekvivalenti hali mavjud bo'lmagan React funksiyasi kerak bo‘lmasa._
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 7. ### What are Pure Components?
 
