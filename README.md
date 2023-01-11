@@ -237,9 +237,9 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 7. ### What are Pure Components?
 
-   _`React.PureComponent`_ is exactly the same as _`React.Component`_ except that it handles the `shouldComponentUpdate()` method for you. When props or state changes, _PureComponent_ will do a shallow comparison on both props and state. _Component_ on the other hand won't compare current props and state to next out of the box. Thus, the component will re-render by default whenever `shouldComponentUpdate` is called.
+   _`React.PureComponent`_ aynan _`React.Component`_ bilan bir xil, faqat siz u uchun `shouldComponentUpdate()` usulini boshqaradi. Props yoki state o'zgarganda, _PureComponent_ shallow comparison va state bo'yicha sayoz taqqoslashni amalga oshiradi. Boshqa tomondan, _Component_ current props va state qutidan keyingi bilan solishtirmaydi. Shunday qilib, `shouldComponentUpdate` chaqirilganda component sukut bo'yicha qayta ko'rsatiladi. Funtional componentalarda biz `React.memo()` API dan foydalanamiz. `React.memo()` yuqori darajadagi component hisoblanadi. U birinchi argument sifatida React componentini oladi va rendererga chiqishni xotirada saqlash vaqtida component(ni) ko'rsatishga imkon beruvchi React componentining maxsus turini qaytaradi. Shuning uchun, agar componentning rekvizitlari sayoz bo'lsa, `React.memo()` componenti yangilanishlarni kafolatlaydi.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 8. ### What is state in React?
 
