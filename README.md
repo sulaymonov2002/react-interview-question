@@ -243,9 +243,9 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 8. ### What is state in React?
 
-   _State_ of a component is an object that holds some information that may change over the lifetime of the component. We should always try to make our state as simple as possible and minimize the number of stateful components.
+   Componentning _State_ - componentnig ishlash muddati davomida o'zgarishi mumkin bo'lgan ba'zi ma'lumotlarni saqlaydigan obyekt. Biz har doim davlatimizni iloji boricha soddalashtirishga harakat qilishimiz va statik componentlar sonini kamaytirishimiz kerak.
 
-   Let's create a user component with message state,
+   Xabar holatiga ega foydalanuvchi komponentini yarataylik,
 
    ```jsx harmony
    class User extends React.Component {
@@ -271,7 +271,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
    State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 9. ### What are props in React?
 
