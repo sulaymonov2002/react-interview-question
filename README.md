@@ -30,11 +30,11 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 | 13  | [HTML va React hodisalarini boshqarish o'rtasidagi farq nima ?](#what-is-the-difference-between-html-and-react-event-handling)                                                             |
 | 14  | [JSX callback(larida) usullar yoki hodisalarni qayta ishlash vositalarini qanday ulash mumkin ?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks)                                  |
 | 15  | [Parametrni event handler yoki callback(ga) qanday o'tkazish mumkin ?](#how-to-pass-a-parameter-to-an-event-handler-or-callback)                                                           |
-| 16  | [React(dagi) sintetik hodisalar nima ?](#what-are-synthetic-events-in-react)                                                                                                                 |
-| 17  | [Inline conditional expressions nima ?](#what-are-inline-conditional-expressions)                                                                                                       |
+| 16  | [React(dagi) sintetik hodisalar nima ?](#what-are-synthetic-events-in-react)                                                                                                               |
+| 17  | [Inline conditional expressions nima ?](#what-are-inline-conditional-expressions)                                                                                                          |
 | 18  | ["Key" prop nima va uni elementlar massivlarida ishlatishning foydasi nimada ?](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements)                               |
-| 19  | [Ref(lardan) qanday foydalanish kerak ?](#what-is-the-use-of-refs)                                                                                                                                       |
-| 20  | [Ref(larni) qanday yaratish mumkin ?](#how-to-create-refs)                                                                                                                                                 |
+| 19  | [Ref(lardan) qanday foydalanish kerak ?](#what-is-the-use-of-refs)                                                                                                                         |
+| 20  | [Ref(larni) qanday yaratish mumkin ?](#how-to-create-refs)                                                                                                                                 |
 | 21  | [What are forward refs?](#what-are-forward-refs)                                                                                                                                           |
 | 22  | [Which is preferred option with in callback refs and findDOMNode()?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode)                                                     |
 | 23  | [Why are String Refs legacy?](#why-are-string-refs-legacy)                                                                                                                                 |
@@ -120,7 +120,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 1. ### What is React?
 
-   React - bu foydalanuvchi interfeyslarini yaratish uchun, ayniqsa, bir sahifali ilovalar uchun ishlatiladigan **open-source front-end JavaScript library**. U web va mobil ilovalar uchun ko'rinish qatlamini boshqarish uchun ishlatiladi. Reactni Facebook'da ishlaydigan dasturiy ta'minot muhandisi [Jordan Walke](https://github.com/jordwalke) yaratgan. React birinchi marta Facebook-ning News Feed-da 2011-yilda va  Instagramda-da 2012-yilda joylashtirilgan.
+   React - bu foydalanuvchi interfeyslarini yaratish uchun, ayniqsa, bir sahifali ilovalar uchun ishlatiladigan **open-source front-end JavaScript library**. U web va mobil ilovalar uchun ko'rinish qatlamini boshqarish uchun ishlatiladi. Reactni Facebook'da ishlaydigan dasturiy ta'minot muhandisi [Jordan Walke](https://github.com/jordwalke) yaratgan. React birinchi marta Facebook-ning News Feed-da 2011-yilda va Instagramda-da 2012-yilda joylashtirilgan.
 
    **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
@@ -158,7 +158,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 4. ### What is the difference between Element and Component?
 
-   _Elemnet_ - bu DOM tugunlari yoki boshqa komponentlar nuqtai nazaridan ekranda paydo bo'ladigan narsalarni tavsiflovchi oddiy obyekt. _Element_(lar) o'z rekvizitlarida boshqa _element_(larni) o'z ichiga olishi mumkin. React element(ni) yaratish arzon. Element yaratilgan so'ng, u hech qachon mutatsiyaga uchramaydi. 
+   _Elemnet_ - bu DOM tugunlari yoki boshqa komponentlar nuqtai nazaridan ekranda paydo bo'ladigan narsalarni tavsiflovchi oddiy obyekt. _Element_(lar) o'z rekvizitlarida boshqa _element_(larni) o'z ichiga olishi mumkin. React element(ni) yaratish arzon. Element yaratilgan so'ng, u hech qachon mutatsiyaga uchramaydi.
 
    React Element obyektining ko'rinishi quydagicha bo'ladi:
 
@@ -275,27 +275,27 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
 
 9. ### What are props in React?
 
-   _Props_ are inputs to components. They are single values or objects containing a set of values that are passed to components on creation using a naming convention similar to HTML-tag attributes. They are data passed down from a parent component to a child component.
+   _Props_ component(larga) kirish hisoblanadi. Ular HTML-teg atributlariga o'xshash nomlash konventsiyasidan foydalangan holda yaratilganda component(larga) uzatiladigan qiymatlar to'plamini o'z ichiga olgan yagona qiymatlar to'plamini o'z ichiga olgan yagona qiymatlar yoki obyektlardir. Ular asosiy component(dan) kichik component(ga) uzatiladigan ma'lumotlardir.
 
-   The primary purpose of props in React is to provide following component functionality:
+   React-dagi rekvizitlarning asosiy maqsadi quyidagi component(larning) funsionalligini ta'minlashdir:
 
-   1. Pass custom data to your component.
-   2. Trigger state changes.
-   3. Use via `this.props.reactProp` inside component's `render()` method.
+   1. Shaxsiy ma'lumotlarni component(ingizga) o'tkazing.
+   2. Trigger holati o'zgarishlari.
+   3. Component(ning) `render()` usuli ichida `this.props.reactProp` orqali foydalaning.
 
-   For example, let us create an element with `reactProp` property:
+   Masalan, `reactProp` xususiyatga ega element yarataylik:
 
    ```jsx harmony
    <Element reactProp={"1"} />
    ```
 
-   This `reactProp` (or whatever you came up with) name then becomes a property attached to React's native props object which originally already exists on all components created using React library.
+   Bu `reactProp` (yoki siz o'ylab topgan narsangiz) nomi keyin React kutubxonasi yordamida yaratilgan barcha component(larda) allaqachon mavjud bo'lgan Reactning mahalliy rekvizitlar obyektiga biriktirilgan xususiyatga aylanadi.
 
    ```
    props.reactProp
    ```
 
-   **Example: Props in Class Based Component**
+   **Misol: Classga asoslangan component(dagi) props**
 
    ```jsx
    import React from "react";
@@ -324,7 +324,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
    }
    ```
 
-   **Example: Props in Functional Component**
+   **Misol: Functional Component(dagi) props(lar)**
 
    ```jsx
    import React from "react";
@@ -349,7 +349,7 @@ Ushbu repository PDF VA Epub versiyasini ammallar yorlig'idagi so'nggi ishga tus
    };
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Yuqoriga qaytish](#table-of-contents)**
 
 10. ### What is the difference between state and props?
 
